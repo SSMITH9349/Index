@@ -1,0 +1,22 @@
+@charset "utf-08";
+
+/*Name Header*/ 
+body>article>h1{
+    background:whitesmoke;
+    float:right;
+    border:1px;
+    box-shadow:inset rgb(155, 163, 236) 5px 5px 10px;
+    font-size: 7em;
+    font-family: "baskerville old face","times new roman";
+    position:absolute;
+    right:0;
+    top:0;
+}
+
+/*Picture*/
+figure#figure1{
+    position:absolute;
+    right:0;
+    bottom:0;
+}
+
