@@ -8,9 +8,7 @@ body{
 }
 body>article>h1{
     display:block;
-    background:whitesmoke;
     border:1px;
-    box-shadow:inset rgb(155, 163, 236) 5px 5px 10px;
     font-size: 7em;
     font-family: "baskerville old face","times new roman";
     position:absolute;
@@ -34,9 +32,16 @@ section#GraduationInfo{
     top:30%;
     left:33%;
     text-align: center;
-    border: blueviolet solid 1px;
-
+    border: rgb( 138,43,226)solid 1px;
+    background:rgb(199, 155, 240);
+    opacity: .5;
+    vertical-align: middle;
     
+}
+section#GraduationInfo> p{
+    opacity:1;
+    color:rgb(43, 19, 88);
+    font-size: 1.5em;
 }
 
 /*aisde*/
