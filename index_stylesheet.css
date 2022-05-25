@@ -14,13 +14,19 @@ body>article>h1{
     position:absolute;
     right: 10px;
     top: -90px;
+    color: linear
 }
-
+h1:last-of-type{
+    color:blueviolet;
+}
+h1:nth-last-of-type(2)::after{
+    color: black;
+}
 /*Picture*/
 figure#figure1{
     position:absolute;
-    right:0;
-    bottom:0;
+    right:35px;
+    bottom:-50px;
 }
 
 /* articles*/
@@ -30,7 +36,7 @@ section#GraduationInfo{
     width: 25%;
     position:absolute;
     top:30%;
-    left:33%;
+    left:38%;
     text-align: center;
     border: rgb( 138,43,226)solid 1px;
     background:rgb(199, 155, 240);
