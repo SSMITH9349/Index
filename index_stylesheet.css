@@ -1,16 +1,21 @@
 @charset "utf-08";
 
 /*Name Header*/ 
+body{
+    width:auto;
+    height: 100%;
+    background:url(blueback.png);
+}
 body>article>h1{
+    display:block;
     background:whitesmoke;
-    float:right;
     border:1px;
     box-shadow:inset rgb(155, 163, 236) 5px 5px 10px;
     font-size: 7em;
     font-family: "baskerville old face","times new roman";
     position:absolute;
-    right:0;
-    top:0;
+    right: 10px;
+    top: -90px;
 }
 
 /*Picture*/
@@ -20,3 +25,24 @@ figure#figure1{
     bottom:0;
 }
 
+/* articles*/
+
+
+section#GraduationInfo{
+    width: 25%;
+    position:absolute;
+    top:30%;
+    left:33%;
+    text-align: center;
+    border: blueviolet solid 1px;
+
+    
+}
+
+/*aisde*/
+
+section#Work{
+    position:absolute;
+    bottom:0;
+    left:0;
+}
