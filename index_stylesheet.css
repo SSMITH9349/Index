@@ -16,11 +16,8 @@ body>article>h1{
     top: -90px;
     color: linear
 }
-h1:last-of-type{
+h1{
     color:blueviolet;
-}
-h1:nth-last-of-type(2)::after{
-    color: black;
 }
 /*Picture*/
 figure#figure1{
